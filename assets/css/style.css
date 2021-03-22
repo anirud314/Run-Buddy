@@ -1,0 +1,38 @@
+/*For this example I am following defaults provided by the instructions*/
+*{
+    margin:0;
+    padding:0;
+}/*Tells every element in the page not to have any margin or border unless explicitally told to */
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ color: #39a6b2; /*Teal Coloring*/
+}
+
+/*Header*/
+header {
+    padding : 20px 35px;
+    background-color: #39a6b2;
+}
+header h1{ /*Doing this specifies the h1 tag in the header rather than all h1 in page*/
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+}
+header a{ /*Same concept as header h1{*/
+    text-decoration: none;
+    color: #fce138;
+}
+header nav { /*Make nav an inline element rather than a block element*/
+    float: right;
+    margin: 7px 0;
+}
+header nav ul li { /* To make all list items in one line rather than a list*/
+    display: inline;
+}
+header nav ul li a{
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
