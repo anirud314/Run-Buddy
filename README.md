@@ -13,3 +13,5 @@ https://anirud314.github.io/Run-Buddy/
 
 ## Contribution
 Made with ❤️ by Aniruddha Bhattacharya
+
+### ©️2021 Run Buddy, Inc 
