@@ -9,7 +9,7 @@ A website that offers fitness training services.
 * CSS
 
 ## Website
-https://anirud314.github.io/run-buddy/
+https://anirud314.github.io/Run-Buddy/
 
 ## Contribution
 Made with ❤️ by Aniruddha Bhattacharya
