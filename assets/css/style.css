@@ -32,13 +32,21 @@ header nav { /*Make nav an inline element rather than a block element*/
     /*float: right; - To be removed*/
     margin: 7px 0;
 }
-header nav ul li { /* To make all list items in one line rather than a list*/
+/*header nav ul li { /* To make all list items in one line rather than a list
     display: inline;
+} - To be removed*/
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 header nav ul li a{
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    /*font-size: 22px; - To be removed*/
+    font-size: 1.55vw; /*vw = viewport width*/
 }
 
 section{
