@@ -13,20 +13,23 @@ body {
 header {
     padding : 20px 35px;
     background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 header h1{ /*Doing this specifies the h1 tag in the header rather than all h1 in page*/
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
+    /*display: inline; - To be removed*/ 
 }
 header a{ /*Same concept as header h1{*/
     text-decoration: none;
     color: #fce138;
 }
 header nav { /*Make nav an inline element rather than a block element*/
-    float: right;
+    /*float: right; - To be removed*/
     margin: 7px 0;
 }
 header nav ul li { /* To make all list items in one line rather than a list*/
