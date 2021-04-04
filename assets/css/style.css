@@ -38,7 +38,8 @@ header nav ul {
     list-style: none;
 }
 header nav ul li a{
-    margin: 0 30px;
+    /*margin: 0 30px;*/
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw; /*vw = viewport width*/
 }
@@ -48,6 +49,7 @@ section{
 }
 
 .hero { /*Hero class section styling*/
+    align-items: flex-start;
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
     background-position: center;
@@ -61,7 +63,7 @@ section{
     margin: 3.5%;
     color: #fff;
     font-size: 18px;
-    line-height: 1.3;
+    line-height: 1.2;
 }
 .hero-cta h2 {
     font-style: italic;
@@ -107,7 +109,7 @@ section{
 
 /*Section definitions*/
 .section-title {
-    font-size: 55px;
+    font-size: 48px;
     color: #024e76;
     border-bottom: 3px solid;
     padding-bottom: 20px;
@@ -294,4 +296,23 @@ footer div {
 }
 footer a{
     color:#024e76;
+}
+
+/*--------------------------------------------------------Media Queries--------------------------------------------------------*/
+/*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
+@media screen and (max-width: 980px){
+    /*This will be applied on any screen smaller than 980px*/
+  
+}
+
+/*MEDIA QUERY FOR TABLETS AND SMALLER*/
+@media screen and (max-width: 768px){
+    /*This will be applied on any screen smaller than 768px*/
+  
+}
+
+/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
+@media screen and (max-width: 575px){
+    /*This will be applied on any screen smaller than 575px*/
+   
 }
