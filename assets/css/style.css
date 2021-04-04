@@ -16,6 +16,13 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url("../images/hero-bg.jpg");
+    background-attachment: fixed;
+    background-position: 80%;
+    background-size: cover;
 }
 header h1{ /*Doing this specifies the h1 tag in the header rather than all h1 in page*/
     font-weight: bold;
@@ -54,7 +61,8 @@ section{
     align-items: flex-start;
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
-    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -314,6 +322,7 @@ footer a{
     header {
         padding-bottom: 0;
         justify-content: center;
+        position: relative;
     }
 
     header h1 {
