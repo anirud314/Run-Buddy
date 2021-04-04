@@ -1,4 +1,4 @@
-# Run-Buddy
+# Run-Buddy Inc.
 Module 1 exercise
 
 ## Purpose
